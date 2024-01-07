@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.4)
-project(tmapper)
+project(tmap)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR})
-add_executable(tmapper
+add_executable(tmap
   src/AigNode.cpp
   src/AndInverterGraph.cpp
   src/AndNode.cpp
